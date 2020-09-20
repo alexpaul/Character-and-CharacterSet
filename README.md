@@ -25,6 +25,8 @@ for char in "Alex" {
 
 > Apple Documentation: A CharacterSet represents a set of Unicode-compliant characters. Foundation types use CharacterSet to group characters together for searching > operations, so that they can find any of a particular set of characters during a search.
 
+## Built-in `CharacterSet`s
+
 ```swift 
 for char in "Alex".unicodeScalars {
   if CharacterSet.lowercaseLetters.contains(char) {
@@ -35,6 +37,33 @@ for char in "Alex".unicodeScalars {
  l is a lower letter
  e is a lower letter
  x is a lower letter
+*/
+```
+
+## Custom `CharacterSet`
+
+```swift 
+var happyMood = CharacterSet(charactersIn: "🥳🔥😀")
+happyMood.insert(charactersIn: "😎")
+happyMood.insert(charactersIn: "🎆")
+
+let currentYear = "🎆😢😭🤬😱😤🤮"
+
+for unicodeScalar in currentYear.unicodeScalars {
+  if happyMood.contains(unicodeScalar) {
+    print("\(unicodeScalar) happy")
+  } else {
+    print("\(unicodeScalar) sad")
+  }
+}
+/*
+🎆 happy
+😢 sad
+😭 sad
+🤬 sad
+😱 sad
+😤 sad
+🤮 sad
 */
 ```
 
