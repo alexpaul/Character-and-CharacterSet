@@ -16,6 +16,10 @@ for char in "Alex" {
 */
 ```
 
+## Resources 
+
+1. [Apple documentation - Character](https://developer.apple.com/documentation/foundation/character)
+
 
 # CharacterSet
 
@@ -36,6 +40,6 @@ for char in "Alex".unicodeScalars {
 
 ## Resouruces 
 
-1. [Apple Documentation - CharacterSet](https://developer.apple.com/documentation/foundation/characterset)
+1. [Apple documentation - CharacterSet](https://developer.apple.com/documentation/foundation/characterset)
 2. [Unicode Character Categories](https://www.compart.com/en/unicode/category)
 3. [NSHipster - CharacterSet](https://nshipster.com/characterset/)
