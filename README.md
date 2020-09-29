@@ -97,6 +97,12 @@ if let _ = str.rangeOfCharacter(from: vowels) {
 
 #### Check for symbol in String
 
+Here we are iteracting the elements of the "currentYear" String
+normally we would be getting each element as a "String.Index" or "Character" data type
+however here we need to inspect the unicodeScalar of our happyMood CharacterSet
+so we need to convert our "currentYear" String to unicodeScalars
+thereby we are interating throught unicode scalars
+
 ```swift 
 var happyMood = CharacterSet(charactersIn: "🥳🔥😀")
 happyMood.insert(charactersIn: "😎")
