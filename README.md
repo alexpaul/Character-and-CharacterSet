@@ -22,8 +22,8 @@ for char in "Alex" {
 
 ```swift 
 let amount = "$100"
-let first = amount.first ?? " "
-if first.isCurrencySymbol {
+let firstChar = amount.first ?? " "
+if firstChar.isCurrencySymbol {
   print("valid currency")
 } else {
   print("not a valid currency")
@@ -33,27 +33,27 @@ if first.isCurrencySymbol {
 #### Many other `Character` checks available
 
 ```swift 
-first.isASCII
+char.isASCII
 
-first.isCased
+char.isCased
 
-first.asciiValue
+char.asciiValue
 
-first.isLetter
+char.isLetter
 
-first.isMathSymbol
+char.isMathSymbol
 
-first.isWholeNumber
+char.isWholeNumber
 
-first.isWhitespace
+char.isWhitespace
 
-first.isNumber
+char.isNumber
 
-first.isLowercase
+char.isLowercase
 
-first.isNewline
+char.isNewline
 
-first.isPunctuation
+char.isPunctuation
 ```
 
 ## Resources 
