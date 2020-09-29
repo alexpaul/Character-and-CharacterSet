@@ -30,6 +30,32 @@ if first.isCurrencySymbol {
 }
 ```
 
+#### Many other `Character` checks available
+
+```swift 
+first.isASCII
+
+first.isCased
+
+first.asciiValue
+
+first.isLetter
+
+first.isMathSymbol
+
+first.isWholeNumber
+
+first.isWhitespace
+
+first.isNumber
+
+first.isLowercase
+
+first.isNewline
+
+first.isPunctuation
+```
+
 ## Resources 
 
 1. [Apple documentation - Character](https://developer.apple.com/documentation/foundation/character)
