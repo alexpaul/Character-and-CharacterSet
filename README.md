@@ -122,6 +122,34 @@ for unicodeScalar in currentYear.unicodeScalars {
 */
 ```
 
+## Combining CharacterSets 
+
+#### `isSubset`
+
+```swift 
+nameCharSet.isSubset(of: .alphanumerics) // true
+```
+
+#### `isSuperset`
+
+```swift 
+nameCharSet.isSuperset(of: CharacterSet(charactersIn: "lex")) // true
+```
+
+#### `isStrictSubset`
+
+```swift 
+CharacterSet(charactersIn: "lexi").isStrictSubset(of: nameCharSet) // false
+CharacterSet(charactersIn: "lex").isStrictSubset(of: nameCharSet) // true
+```
+
+#### `disjoint`
+
+```swift 
+CharacterSet(charactersIn: "wix").isDisjoint(with: nameCharSet) // false because "x" exist in nameCharSet
+CharacterSet(charactersIn: "swift").isDisjoint(with: nameCharSet) // true because all characters in "swift" are unique to "Alex"
+```
+
 ## Useful use cases 
 
 #### Removing puctuation 
