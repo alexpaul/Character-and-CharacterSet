@@ -58,7 +58,7 @@ char.isPunctuation
 
 ## Resources 
 
-1. [Apple documentation - Character](https://developer.apple.com/documentation/foundation/character)
+1. [Apple documentation - Character](https://developer.apple.com/documentation/swift/character)
 
 
 # CharacterSet
