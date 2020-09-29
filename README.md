@@ -160,12 +160,6 @@ if CharacterSet(charactersIn: password).isSubset(of: CharacterSet.alphanumerics)
 }
 ```
 
-## Resouruces 
-
-1. [Apple documentation - CharacterSet](https://developer.apple.com/documentation/foundation/characterset)
-2. [Unicode Character Categories](https://www.compart.com/en/unicode/category)
-3. [NSHipster - CharacterSet](https://nshipster.com/characterset/)
-
 ## Challenges 
 
 #### Challenge 1 - First unique character in a String
@@ -183,3 +177,10 @@ if CharacterSet(charactersIn: password).isSubset(of: CharacterSet.alphanumerics)
 #### Challenge 4 - Consecutive characters
 
 [LeetCode](https://leetcode.com/problems/consecutive-characters/)
+
+
+## Resouruces 
+
+1. [Apple documentation - CharacterSet](https://developer.apple.com/documentation/foundation/characterset)
+2. [Unicode Character Categories](https://www.compart.com/en/unicode/category)
+3. [NSHipster - CharacterSet](https://nshipster.com/characterset/)
