@@ -72,3 +72,21 @@ for unicodeScalar in currentYear.unicodeScalars {
 1. [Apple documentation - CharacterSet](https://developer.apple.com/documentation/foundation/characterset)
 2. [Unicode Character Categories](https://www.compart.com/en/unicode/category)
 3. [NSHipster - CharacterSet](https://nshipster.com/characterset/)
+
+## Challenges 
+
+#### Challenge 1 - First unique character in a String
+
+[LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
+
+#### Challenge 2 - Find common characters
+
+[LeetCode](https://leetcode.com/problems/find-common-characters/)
+
+#### Challenge 3 - Shortest distance to a Character
+
+[LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character/)
+
+#### Challenge 4 - Consecutive characters
+
+[LeetCode](https://leetcode.com/problems/consecutive-characters/)
