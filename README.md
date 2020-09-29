@@ -206,6 +206,10 @@ if CharacterSet(charactersIn: password).isSubset(of: CharacterSet.alphanumerics)
 
 [LeetCode](https://leetcode.com/problems/consecutive-characters/)
 
+#### Challenge 5 - Pangram
+
+[HackerRank](https://www.hackerrank.com/challenges/pangrams/problem)
+
 
 ## Resouruces 
 
